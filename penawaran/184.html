@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validasi Surat Penawaran</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Validasi Surat Penawaran 184/GUK-PNW/XII/2025</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background: #f4f6f9;
             margin: 0;
-            padding: 0;
+            padding: 20px;
         }
         .container {
-            max-width: 500px;
-            margin: 40px auto;
-            background: white;
-            padding: 25px;
+            max-width: 700px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 24px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
         }
         h2 {
             text-align: center;
-            margin-bottom: 20px;
+            color: #0b3d66;
+            margin: 0 0 18px 0;
         }
         .status {
-            background: #e8f8ec;
-            padding: 12px;
-            border-left: 5px solid #2ecc71;
-            margin-bottom: 20px;
-            color: #2d8a46;
+            background: #eaf7ee;
+            padding: 12px 14px;
+            border-left: 6px solid #1d8f3a;
+            margin-bottom: 18px;
+            color: #1d8f3a;
+            font-weight: 600;
+            border-radius: 4px;
         }
         .data label {
-            font-weight: bold;
+            display: block;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #333;
         }
-        .data div {
-            margin-bottom: 12px;
+        .data .value {
+            background: #fbfcfd;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #eef1f5;
+            margin-bottom: 14px;
+            color: #222;
         }
         .footer {
             text-align: center;
-            margin-top: 25px;
-            color: gray;
-            font-size: 14px;
+            color: #8a8f95;
+            font-size: 13px;
+            margin-top: 18px;
+        }
+        @media (max-width:480px){
+            .container { padding: 16px; margin: 14px; }
         }
     </style>
 </head>
 <body>
+    <div class="container">
+        <h2>Validasi Surat Penawaran</h2>
 
-<div class="container">
-    <h2>Validasi Surat Penawaran</h2>
+        <div class="status">✔ Dokumen Ini Valid</div>
 
-    <div class="status">
-        ✔ Dokumen Ini Valid  
+        <div class="data">
+            <div>
+                <label>Nomor Dokumen:</label>
+                <div class="value">184/GUK-PNW/XII/2025</div>
+            </div>
+
+            <div>
+                <label>Tanggal Dokumen:</label>
+                <div class="value">5 Desember 2025</div>
+            </div>
+
+            <div>
+                <label>Perihal:</label>
+                <div class="value">Penawaran Harga Prefabricated Vertical Drain (PVD)</div>
+            </div>
+
+            <div>
+                <label>Diterbitkan Untuk (Penerima):</label>
+                <div class="value">PT. Pratama Widya</div>
+            </div>
+
+            <div>
+                <label>Diterbitkan Oleh:</label>
+                <div class="value">PT Geoteknik Utama Konstruksi</div>
+            </div>
+
+            <div>
+                <label>Status:</label>
+                <div class="value">Aktif & Terverifikasi</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Sistem Validasi Dokumen – PT Geoteknik Utama Konstruksi
+        </div>
     </div>
-
-    <div class="data">
-        <div>
-            <label>Nomor Dokumen:</label><br>
-            184/GUK-PNW/XII/2025
-        </div>
-
-        <div>
-            <label>Tanggal Dokumen:</label><br>
-            11 Desember 2025
-        </div>
-
-        <div>
-            <label>Perihal:</label><br>
-            Surat Penawaran Harga
-        </div>
-
-        <div>
-            <label>Diterbitkan Oleh:</label><br>
-            PT Geoteknik Utama Konstruksi
-        </div>
-
-        <div>
-            <label>Status:</label><br>
-            Aktif & Terverifikasi
-        </div>
-    </div>
-
-    <div class="footer">
-        Sistem Validasi Dokumen – PT Geoteknik Utama Konstruksi
-    </div>
-</div>
-
 </body>
 </html>
+
